@@ -35,7 +35,8 @@ def main():
 
 
 # main an iterator for doing the game as much as need 
-answer = 'y'
-while answer == 'y':
-    main()
-    answer = input("Do You Want To Continue? (y/n): ")
+if __name__ == "__main__":
+    answer = 'y'
+    while answer == 'y':
+        main()
+        answer = input("Do You Want To Continue? (y/n): ")
